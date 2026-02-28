@@ -1,0 +1,603 @@
+{
+    "categories": [
+      {
+        "name": "BestSeller",
+        "dishes": [
+          {
+            "id": "boeuf-loc-lac",
+            "name": "Boeuf Loc Lac",
+            "description": "Boeuf Loc Lac",
+            "price": 12.00,
+            "image": "/assets/images/Specialites/boeuf-loc-lac.png"
+          },
+          {
+            "id": "mood-qui-pleure-riz-thai",
+            "name": "Le Mood qui pleure (Riz Thai)",
+            "description": "Base riz thai",
+            "price": 15.40,
+            "image": "/assets/images/Specialites/mood-qui-pleure-riz-thai.png"
+          },
+          {
+            "id": "poulet-loc-lac",
+            "name": "Poulet Loc Lac",
+            "description": "Poulet Loc Lac",
+            "price": 12.00,
+            "image": "/assets/images/Specialites/poulet-loc-lac.png"
+          },
+          {
+            "id": "pad-thai",
+            "name": "Pad Thai",
+            "description": "Sélection de viandes : boeuf, crevette, poulet, poulet crunchy",
+            "basePrice": 11.00,
+            "additionalMeatPrice": 2.00,
+            "image": "/assets/images/Pad-Thai/pad-thai.png",
+            "meatOptions": [
+              {
+                "name": "Boeuf",
+                "image": "/assets/images/Pad-Thai/pad-thai-boeuf.png"
+              },
+              {
+                "name": "Crevette",
+                "image": "/assets/images/Pad-Thai/pad-thai-crevette.png"
+              },
+              {
+                "name": "Poulet",
+                "image": "/assets/images/Pad-Thai/pad-thai-poulet.png"
+              },
+              {
+                "name": "Poulet Crunchy",
+                "image": "/assets/images/Pad-Thai/pad-thai-poulet-crunchy.png"
+              }
+            ]
+          },{
+            "id": "nouilles-sautees",
+            "name": "Nouilles Sautées",
+            "description": "Sélection de viandes : boeuf, crevette, poulet, poulet crunchy",
+            "basePrice": 11.00,
+            "additionalMeatPrice": 2.00,
+            "image": "/assets/images/nouilles-sautees/nouilles-sautees.png",
+            "meatOptions": [
+              {
+                "name": "Boeuf",
+                "image": "/assets/images/nouilles-sautees/nouilles-sautees-boeuf.png"
+              },
+              {
+                "name": "Crevette",
+                "image": "/assets/images/nouilles-sautees/nouilles-sautees-crevette.png"
+              },
+              {
+                "name": "Poulet",
+                "image": "/assets/images/nouilles-sautees/nouilles-sautees-poulet.png"
+              },
+              {
+                "name": "Poulet Crunchy",
+                "image": "/assets/images/nouilles-sautees/nouilles-sautees-crunchy.png"
+              }
+            ]
+          },
+          {
+            "id": "riz-thai",
+            "name": "Riz Thai",
+            "description": "Sélection de viandes : boeuf, crevette, poulet, poulet crunchy",
+            "basePrice": 11.00,
+            "additionalMeatPrice": 2.00,
+            "image": "/assets/images/Riz-thai/riz-thai.png",
+            "meatOptions": [
+              {
+                "name": "Boeuf",
+                "image": "/assets/images/Riz-thai/riz-thai-boeuf.png"
+              },
+              {
+                "name": "Crevette",
+                "image": "/assets/images/Riz-thai/riz-thai-crevette.png"
+              },
+              {
+                "name": "Poulet",
+                "image": "/assets/images/Riz-thai/riz-thai-poulet.png"
+              },
+              {
+                "name": "Poulet Crunchy",
+                "image": "/assets/images/Riz-thai/riz-thai-crunchy.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Entrée",
+        "dishes": [
+          {
+            "id": "salade-thai-boeuf",
+            "name": "Salade Thai Boeuf",
+            "description": "Salade Boeuf Thai citronnelle",
+            "price": 10,
+            "image": "/assets/images/Entrees/salade-thai-boeuf.png"
+          },
+          {
+            "id": "salade-thai-crevette",
+            "name": "Salade Thai Crevette",
+            "description": "Salade Thai Crevette",
+            "price": 10,
+            "image": "/assets/images/Entrees/salade-thai-crevette.png"
+          },
+          {
+            "id": "salade-poulet-crunchy",
+            "name": "Salade Poulet Crunchy",
+            "description": "Salade Poulet Crunchy",
+            "price": 10,
+            "image": "/assets/images/Entrees/salade-poulet-crunchy.png"
+          },
+          {
+            "id": "salade-vege",
+            "name": "Salade Vege",
+            "description": "Salade Vege",
+            "price": 10,
+            "image": "/assets/images/Entrees/salade-vege.png"
+          },
+          {
+            "id": "brochette-crevettes",
+            "name": "Brochette de crevettes x2",
+            "description": "Brochette de crevettes",
+            "price": 5.90,
+            "image": "/assets/images/Entrees/brochette-crevettes.png"
+          },
+          {
+            "id": "brochette-boeuf-fromage",
+            "name": "Brochette Boeuf fromage x2",
+            "description": "Brochette Boeuf fromage",
+            "price": 5.90,
+            "image": "/assets/images/Entrees/brochette-boeuf-fromage.png"
+          },
+          {
+            "id": "poulet-satay",
+            "name": "Poulet Satay x2",
+            "description": "Brochette de Poulet Satay",
+            "price": 5.90,
+            "image": "/assets/images/Entrees/poulet-satay.png"
+          },
+          {
+            "id": "nems-poulet",
+            "name": "Nems Poulet x3",
+            "description": "Nems au poulet",
+            "price": 5.50,
+            "image": "/assets/images/Entrees/nems-poulet.png"
+          },
+          {
+            "id": "nems-crevette",
+            "name": "Nems Crevette x3",
+            "description": "Nems aux crevettes",
+            "price": 5.50,
+            "image": "/assets/images/Entrees/nems-crevette.png"
+          },
+          {
+            "id": "tempura-crevettes",
+            "name": "Tempura Crevettes",
+            "description": "Tempura de crevettes",
+            "price": 5.50,
+            "image": "/assets/images/Entrees/tempura-crevettes.png"
+          },
+          {
+            "id": "dynamite-crevette",
+            "name": "Dynamite Crevette",
+            "description": "Crevettes épicées",
+            "price": 5.90,
+            "image": "/assets/images/Entrees/dynamite-crevette.png"
+          },
+          {
+            "id": "dynamite-poulet",
+            "name": "Dynamite Poulet",
+            "description": "Poulet épicé",
+            "price": 5.90,
+            "image": "/assets/images/Entrees/dynamite-poulet.png"
+          }
+        ]
+      },
+      {
+        "name": "MoodWich",
+        "dishes": [
+          {
+            "id": "moodwich-boeuf",
+            "name": "MoodWich Boeuf",
+            "description": "Pain baguette, boeuf, carotte rapée, concombre, sauce dynamite, coriandre, oignons frits",
+            "price": 9.50,
+            "image": "/assets/images/Moodwich/moodwich-boeuf.png",
+            "defaultIngredients": ["Carotte rapée", "Concombre", "Sauce dynamite"],
+            "supplements": [
+              {"name": "Oeuf au plat", "price": 1.90},
+              {"name": "Poussée de Soja", "price": 1.00},
+              {"name": "Chou Rouge", "price": 1.00},
+              {"name": "Avocat", "price": 1.90}
+            ]
+          },
+          {
+            "id": "moodwich-poulet",
+            "name": "MoodWich Poulet",
+            "description": "Pain baguette, poulet, carotte rapée, concombre, sauce dynamite, coriandre, oignons frits",
+            "price": 9.50,
+            "image": "/assets/images/Moodwich/moodwich-poulet.png",
+            "defaultIngredients": ["Carotte rapée", "Concombre", "Sauce dynamite"],
+            "supplements": [
+              {"name": "Oeuf au plat", "price": 1.90},
+              {"name": "Poussée de Soja", "price": 1.00},
+              {"name": "Chou Rouge", "price": 1.00},
+              {"name": "Avocat", "price": 1.90}
+            ]
+          },
+          {
+            "id": "moodwich-vege",
+            "name": "MoodWich Vege",
+            "description": "Pain baguette, vege, carotte rapée, concombre, sauce dynamite, coriandre, oignons frits",
+            "price": 9.50,
+            "image": "/assets/images/Moodwich/moodwich-vege.png",
+            "defaultIngredients": ["Carotte rapée", "Concombre", "Sauce dynamite"],
+            "supplements": [
+              {"name": "Oeuf au plat", "price": 1.90},
+              {"name": "Poussée de Soja", "price": 1.00},
+              {"name": "Chou Rouge", "price": 1.00},
+              {"name": "Avocat", "price": 1.90}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bo Bun",
+        "dishes": [
+          {
+            "id": "bo-bun-poulet",
+            "name": "Bo Bun Poulet",
+            "description": "Salade, poivrons, soja, concombre, chou rouge, oignons blancs",
+            "price": 12.00,
+            "image": "/assets/images/bo-bun-poulet.png",
+            "defaultIngredients": ["Salade", "Poivrons", "Soja", "Concombre", "Chou Rouge", "Oignons Blancs"],
+            "spicyOptions": ["Doux", "Fort", "Extra Fort"],
+            "supplements": [
+              {"name": "Poulet Crunchy", "price": 3.00},
+              {"name": "Poulet", "price": 3.00},
+              {"name": "Boeuf", "price": 3.00},
+              {"name": "Riz Thai", "price": 3.00},
+              {"name": "Nouilles sautées", "price": 3.00},
+              {"name": "Crevettes", "price": 3.00},
+              {"name": "Riz blanc", "price": 3.00},
+              {"name": "Oeuf au plat", "price": 1.90}
+            ]
+          },
+          {
+            "id": "bo-bun-boeuf",
+            "name": "Bo Bun Boeuf",
+            "description": "Salade, poivrons, soja, concombre, chou rouge, oignons blancs",
+            "price": 12.00,
+            "image": "/assets/images/bo-bun-boeuf.png",
+            "defaultIngredients": ["Salade", "Poivrons", "Soja", "Concombre", "Chou Rouge", "Oignons Blancs"],
+            "spicyOptions": ["Doux", "Fort", "Extra Fort"],
+            "supplements": [
+              {"name": "Poulet Crunchy", "price": 3.00},
+              {"name": "Poulet", "price": 3.00},
+              {"name": "Boeuf", "price": 3.00},
+              {"name": "Riz Thai", "price": 3.00},
+              {"name": "Nouilles sautées", "price": 3.00},
+              {"name": "Crevettes", "price": 3.00},
+              {"name": "Riz blanc", "price": 3.00},
+              {"name": "Oeuf au plat", "price": 1.90}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Plats",
+        "dishes": [
+          {
+            "id": "vege-bowl",
+            "name": "Végé Bowl",
+            "description": "Riz, chou rouge, tomate cerise, avocats, mangue, concombre, oignons, crispy",
+            "price": 11.50,
+            "image": "/assets/images/Poke-Bowl/vege-bowl.png"
+          },
+          {
+            "id": "chicken-bowl",
+            "name": "Chicken Bowl",
+            "description": "Poulet, riz, avocat, mangue, chou rouge, tomates cerises, oignons frits, concombre",
+            "price": 12.00,
+            "image": "/assets/images/Poke-Bowl/chicken-bowl.png"
+          },
+          {
+            "id": "boeuf-bowl",
+            "name": "Boeuf Bowl",
+            "description": "Boeuf, riz, avocat, mangue, chou rouge, tomates cerises, oignons frits, concombre",
+            "price": 13.00,
+            "image": "/assets/images/Poke-Bowl/boeuf-bowl.png"
+          },
+          {
+            "id": "saumon-bowl",
+            "name": "Saumon Bowl",
+            "description": "Saumon, riz, avocat, mangue, chou rouge, tomates cerises, oignons frits, concombre",
+            "price": 12.00,
+            "image": "/assets/images/Poke-Bowl/saumon-bowl.png"
+          },
+          {
+            "id": "pad-thai",
+            "name": "Pad Thai",
+            "description": "Sélection de viandes : boeuf, crevette, poulet, poulet crunchy",
+            "basePrice": 11.00,
+            "additionalMeatPrice": 2.00,
+            "image": "/assets/images/Pad-Thai/pad-thai.png",
+            "meatOptions": [
+              {
+                "name": "Boeuf",
+                "image": "/assets/images/Pad-Thai/pad-thai-boeuf.png"
+              },
+              {
+                "name": "Crevette",
+                "image": "/assets/images/Pad-Thai/pad-thai-crevette.png"
+              },
+              {
+                "name": "Poulet",
+                "image": "/assets/images/Pad-Thai/pad-thai-poulet.png"
+              },
+              {
+                "name": "Poulet Crunchy",
+                "image": "/assets/images/Pad-Thai/pad-thai-poulet-crunchy.png"
+              }
+            ]
+          },
+          {
+            "id": "nouilles-sautees",
+            "name": "Nouilles Sautées",
+            "description": "Sélection de viandes : boeuf, crevette, poulet, poulet crunchy",
+            "basePrice": 11.00,
+            "additionalMeatPrice": 2.00,
+            "image": "/assets/images/nouilles-sautees/nouilles-sautees.png",
+            "meatOptions": [
+              {
+                "name": "Boeuf",
+                "image": "/assets/images/nouilles-sautees/nouilles-sautees-boeuf.png"
+              },
+              {
+                "name": "Crevette",
+                "image": "/assets/images/nouilles-sautees/nouilles-sautees-crevette.png"
+              },
+              {
+                "name": "Poulet",
+                "image": "/assets/images/nouilles-sautees/nouilles-sautees-poulet.png"
+              },
+              {
+                "name": "Poulet Crunchy",
+                "image": "/assets/images/nouilles-sautees/nouilles-sautees-crunchy.png"
+              }
+            ]
+          },
+          {
+            "id": "riz-thai",
+            "name": "Riz Thai",
+            "description": "Sélection de viandes : boeuf, crevette, poulet, poulet crunchy",
+            "basePrice": 11.00,
+            "additionalMeatPrice": 2.00,
+            "image": "/assets/images/Riz-thai/riz-thai.png",
+            "meatOptions": [
+              {
+                "name": "Boeuf",
+                "image": "/assets/images/Riz-thai/riz-thai-boeuf.png"
+              },
+              {
+                "name": "Crevette",
+                "image": "/assets/images/Riz-thai/riz-thai-crevette.png"
+              },
+              {
+                "name": "Poulet",
+                "image": "/assets/images/Riz-thai/riz-thai-poulet.png"
+              },
+              {
+                "name": "Poulet Crunchy",
+                "image": "/assets/images/Riz-thai/riz-thai-crunchy.png"
+              }
+            ]
+          },
+          {
+            "id": "boeuf-basilic",
+            "name": "Boeuf Basilic",
+            "description": "Boeuf au basilic",
+            "price": 12.00,
+            "image": "/assets/images/boeuf-basilic.png"
+          },
+          {
+            "id": "poulet-basilic",
+            "name": "Poulet Basilic",
+            "description": "Poulet au basilic",
+            "price": 12.00,
+            "image": "/assets/images/poulet-basilic.png"
+          },
+          {
+            "id": "mood-qui-pleure-riz-thai",
+            "name": "Le Mood qui pleure (Riz Thai)",
+            "description": "Base riz thai",
+            "price": 15.40,
+            "image": "/assets/images/Specialites/mood-qui-pleure-riz-thai.png"
+          },
+          {
+            "id": "curry-rouge-crevette",
+            "name": "Curry Rouge Crevette",
+            "description": "Curry rouge avec crevettes",
+            "price": 12.40,
+            "image": "/assets/images/Specialites/curry-rouge-crevette.png"
+          },
+          {
+            "id": "curry-rouge-poulet",
+            "name": "Curry Rouge Poulet",
+            "description": "Curry rouge avec poulet",
+            "price": 12.00,
+            "image": "/assets/images/Specialites/curry-rouge-poulet.png"
+          },
+          {
+            "id": "boeuf-loc-lac",
+            "name": "Boeuf Loc Lac",
+            "description": "Boeuf Loc Lac",
+            "price": 12.00,
+            "image": "/assets/images/Specialites/boeuf-loc-lac.png"
+          },
+          {
+            "id": "curry-vert-poulet",
+            "name": "Curry Vert Poulet",
+            "description": "Curry vert avec poulet",
+            "price": 12.40,
+            "image": "/assets/images/Specialites/curry-vert-poulet.png"
+          },
+          {
+            "id": "curry-vert-crevette",
+            "name": "Curry Vert Crevette",
+            "description": "Curry vert avec crevettes",
+            "price": 12.40,
+            "image": "/assets/images/Specialites/curry-vert-crevette.png"
+          },
+          {
+            "id": "poulet-loc-lac",
+            "name": "Poulet Loc Lac",
+            "description": "Poulet Loc Lac",
+            "price": 12.00,
+            "image": "/assets/images/Specialites/poulet-loc-lac.png"
+          },
+          {
+            "id": "boeuf-oignons",
+            "name": "Boeuf aux Oignons",
+            "description": "Boeuf aux oignons",
+            "price": 12.00,
+            "image": "/assets/images/Specialites/boeuf-oignons.png"
+          },
+          {
+            "id": "poulet-oignons",
+            "name": "Poulet aux Oignons",
+            "description": "Poulet aux oignons",
+            "price": 12.00,
+            "image": "/assets/images/Specialites/poulet-oignons.png"
+          }
+        ]
+      },
+      {
+        "name": "Bubble Tea",
+        "dishes": [
+          {
+            "id": "bubble-tea",
+            "name": "Bubble Tea",
+            "description": "Personnalisé par les clients",
+            "price": 4.90,
+            "image": "/assets/images/Specialites/bubble-tea.png",
+            "syrups": ["Fraise", "Melon", "Mangue", "Fruit de la passion", "Pêche", "Ananas"],
+            "poppings": ["Pêche", "Pomme Verte", "Grenade", "Litchi", "Mangue", "Fruit de la Passion"],
+            "extraPoppingPrice": 1.00
+          }
+        ]
+      },
+      {
+        "name": "Desserts",
+        "dishes": [
+          {
+            "id": "fondant-chocolat",
+            "name": "Fondant au Chocolat",
+            "description": "Fondant au chocolat",
+            "price": 3.50,
+            "image": "/assets/images/fondant-chocolat.png"
+          },
+          {
+            "id": "tarte-choco-noisettes",
+            "name": "Tarte Choco Noisettes",
+            "description": "Tarte aux chocolats et noisettes",
+            "price": 2.50,
+            "image": "/assets/images/tarte-choco-noisettes.png"
+          },
+          {
+            "id": "tarte-daims",
+            "name": "Tarte aux Daims",
+            "description": "Tarte aux daims",
+            "price": 2.50,
+            "image": "/assets/images/tarte-daims.png"
+          },
+          {
+            "id": "riz-gluant-mangue",
+            "name": "Riz Gluant à la Mangue",
+            "description": "Riz gluant avec mangue",
+            "price": 4.90,
+            "image": "/assets/images/riz-gluant-mangue.png"
+          },
+          {
+            "id": "tapioca-mangue",
+            "name": "Tapioca à la Mangue",
+            "description": "Tapioca avec mangue",
+            "price": 4.90,
+            "image": "/assets/images/tapioca-mangue.png"
+          },
+          {
+            "id": "tiramisu",
+            "name": "Tiramisu",
+            "description": "Tiramisu (Mangue, Fraise, Framboise, Paris Brest, Oréo, Nutella, Caramel Daim)",
+            "price": 3.50,
+            "image": "/assets/images/tiramisu.png"
+          },
+          {
+            "id": "mousse-chocolat",
+            "name": "Mousse au Chocolat",
+            "description": "Mousse au chocolat",
+            "price": 3.50,
+            "image": "/assets/images/mousse-chocolat.png"
+          }
+        ]
+      },
+      {
+        "name": "Boisson",
+        "dishes": [
+          {
+            "id": "coca",
+            "name": "Coca",
+            "description": "Coca",
+            "price": 1.50
+          },
+          {
+            "id": "coca-cherry",
+            "name": "Coca Cherry",
+            "description": "Coca Cherry",
+            "price": 1.50
+          },
+          {
+            "id": "coca-zero",
+            "name": "Coca Zero",
+            "description": "Coca Zero",
+            "price": 1.50
+          },
+          {
+            "id": "oasis",
+            "name": "Oasis",
+            "description": "Oasis",
+            "price": 1.50
+          },
+          {
+            "id": "ice-tea",
+            "name": "Ice Tea",
+            "description": "Ice Tea",
+            "price": 1.50
+          },
+          {
+            "id": "7up-mojito",
+            "name": "7Up Mojito",
+            "description": "7Up Mojito",
+            "price": 1.50
+          },
+          {
+            "id": "7up-cherry",
+            "name": "7Up Cherry",
+            "description": "7Up Cherry",
+            "price": 1.50
+          },
+          {
+            "id": "7up-tropical",
+            "name": "7Up Tropical",
+            "description": "7Up Tropical",
+            "price": 1.50
+          },
+          {
+            "id": "hawai",
+            "name": "Hawai",
+            "description": "Hawai",
+            "price": 1.50
+          }
+        ]
+      }
+    ]
+  }
+  
